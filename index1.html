@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- search collapse -->
+    <div class="alert-primary alert mb-0 collapse" id="search">
+        <div class="container">
+
+            <div class="input-group">
+
+                <input type="text" class="form-control">
+                <button type="button" class="btn btn-primary">search<i class="bi bi-search"></i></button>
+            </div>
+            <h2 class="my-4">Quick links</h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                    <p><a href="">Dummy link</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p><a href="">more links</a></p>
+                    <p><a href="">more links</a></p>
+                    <p><a href="">more links</a></p>
+                    <p><a href="">more links</a></p>
+
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="card">
+                        <div class="card-body ">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid"
+                                        src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/e/1/7/-original-imag3ebnzawky4kn.jpeg?q=70"
+                                        alt="">
+                                </div>
+
+                                <div class="col-sm-6">
+
+                                    <h4>featured product</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <button type="button" class="btn btn-outline-primary">shop now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">offerkart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="c1">
+
+                <div class="navbar-nav ">
+                    <!-- dropdown menu start -->
+
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        menu
+                    </button>
+                    <div class="dropdown-menu alert-primary alert w-100 border-bottom border-5 border-primary">
+                        <div class="container">
+
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h6>laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-pc-display fs-1"></i>
+                                        <div>
+                                            <h6>desktop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-hdd-stack fs-1"></i>
+                                        <div>
+                                            <h6>SSD</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-router fs-1"></i>
+                                        <div>
+                                            <h6>router</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-mouse fs-1"></i>
+                                        <div>
+                                            <h6>mouse</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-4">
+                                        <i class="bi bi-memory fs-1"></i>
+                                        <div>
+                                            <h6>Ram</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- dropdown end -->
+
+                </div>
+                <div class="ms-auto">
+
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse"
+                        data-bs-target="#search"><i class="bi bi-search"></i></button>
+
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+                        data-bs-target="#cart"><i class="bi bi-cart"></i></button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="offcanvas"
+                        data-bs-target="#login">login<i class="bi bi-person-lock"></i>
+
+                    </button>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- </div> -->
+    </nav>
+
+    <!-- offcanvas login start -->
+
+    <div class="offcanvas offcanvas-end" id="login">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title text-light">login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <label for="">enter name</label>
+            <input type="text" class="form-control" placeholder=""><br>
+            <label for="">enter password</label>
+            <input type="password" class="form-control" placeholder="">
+            <p>Already have account? <a href="">login here</a></p>
+            <button type="button" class="btn btn-primary w-100">login</button>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+    <!-- offcanvas end -->
+
+    <!-- collapse start -->
+    <!-- <div class="collapse" id="search">
+        <div class="card card-body">
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="search" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                <span class="input-group-text bg-primary"><i class="bi bi-search"></i></span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 p-4  ">
+                        <a href="">link here</a>
+                        <a href="">link here</a><br>
+                        <a href="">link here</a>
+                        <a href="">link here</a><br>
+                        <a href="">link here</a>
+                        <a href="">link here</a><br>
+                        <a href="">link here</a>
+                        <a href="">link here</a><br>
+
+                    </div>
+                    <div class="col-lg-4 bg-">
+                        <img class="w-50" src="laptop.jpg" alt=""><br>
+
+                        <button type="button" class="btn btn-primary m-4 ">shop now <i class="bi bi-bag"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- collapse end -->
+
+    <!-- carousel start -->
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-3 " data-bs-ride="carousel" data-bs-interval="1000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6 text-end ">
+                        <img class="img-fluid  "
+                            src="https://rukminim1.flixcart.com/image/312/312/kk2wl8w0/computer/f/k/b/na-gaming-laptop-lenovo-original-imafzgdkvx9guy8q.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>dell xps 13 pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button type="button" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row">
+                    <div class="col-sm-6 text-end ">
+                        <img class="img-fluid  "
+                            src="https://rukminim1.flixcart.com/image/312/312/kk2wl8w0/computer/f/k/b/na-gaming-laptop-lenovo-original-imafzgdkvx9guy8q.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>dell xps 13 pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button type="button" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row">
+                    <div class="col-sm-6 text-end ">
+                        <img class="img-fluid  "
+                            src="https://rukminim1.flixcart.com/image/312/312/kk2wl8w0/computer/f/k/b/na-gaming-laptop-lenovo-original-imafzgdkvx9guy8q.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>dell xps 13 pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button type="button" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <!-- carousel end -->
+
+    <!-- grid stsrt -->
+    <div class="bg-primary  ">
+        <div class="container">
+            <div class="row py-3 ">
+                <div class="col-sm-4">
+                    <div class="d-flex gap-4">
+                        <i class="bi bi-credit-card-2-back fs-1"></i>
+                        <div>
+                            <h6>secure checkout</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-4">
+                        <i class="bi bi-box fs-1"></i>
+                        <div>
+                            <h6>secure checkout</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-4">
+                        <i class="bi bi-truck fs-1"></i>
+                        <div>
+                            <h6>secure checkout</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- grid-end -->
+
+    <!-- start -->
+    <div class="d-flex mt-3 container justify-content-between">
+        <h3>Featured Product</h3>
+        <div>
+            <button type="button" class="btn btn-success">view all</button>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- grid product start -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8 mt-5">
+                                <img class="img-fluid w-100"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/x/l/a/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnakyazyma.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/f/y/7/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhnkfezfush.jpeg?q=70"
+                                    alt=""><br><br>
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/kuwzssw0/computer/w/m/f/redmibook-15-pro-thin-and-light-laptop-redmi-original-imag7xhn8hpnhkgb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer ">
+                        <div class="d-flex justify-content-between">
+                            <h6>msi zeta</h6>
+                            <p>starting 87,435/-</p>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- grid product-end -->
+
+
+
+
+    <div class="offcanvas offcanvas-start" id="cart">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title bg" id="cart">Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+
+                <div class="card-body  ">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="w-100"
+                                src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <p>qty:2</p>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <h6>47,999/-</h6>
+                        </div>
+                    </div>
+
+                    <p class="text-center">saved 150</p>
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-outline-danger ">remove</button>
+                        <button type="button" class="btn btn-outline-warning ">wishlist</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card mt-5 border-5 border-success">
+                    <div class="mt-3 mx-3 ">
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-success">most popular</button>
+                            <i class="bi bi-suit-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <img class="img-fluid w-50"
+                            src="https://rukminim1.flixcart.com/image/832/832/kbjox3k0/router/e/g/v/tp-link-archer-c80-original-imafsv42gtenhfkh.jpeg?q=70"
+                            alt="">
+                        <h6>Routers</h6>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+<!-- VERSION CONTROL -->
